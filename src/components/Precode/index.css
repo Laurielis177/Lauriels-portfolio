@@ -1,0 +1,24 @@
+.post .codeblock {
+  width: 1100px;
+    color: #A6BDC8;
+    display: block; /* fixes a strange ie margin bug */
+    font-family: Courier;
+    font-size: 12pt;
+    overflow:auto;
+    /* background: #f0f0f0 url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAASwCAYAAAAt7rCDAAAABHNCSVQICAgIfAhkiAAAAQJJREFUeJzt0kEKhDAMBdA4zFmbM+W0upqFOhXrDILwsimFR5pfMrXW5jhZr7PwRlxVX8//jNHrGhExjXzdu9c5IiIz+7iqVmB7Hwp4OMa2nhhwN/PRGEMBh3Zjt6KfpzPztxW9MSAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzB8HS+J9kUTvzEDMwAAAABJRU5ErkJggg==) left top repeat-y; */
+    background: #272C3D;
+    border: 1px solid #ccc;
+    padding: 10px 25px;
+    max-height:300px;
+    line-height: 1.2em;
+    border-radius: 20px;
+  }
+
+  @media screen and (max-width: 748px){
+    .post .codeblock{
+      width: 100%;
+
+
+    }
+      
+  }
